@@ -1,0 +1,16 @@
+{
+  "title": "My CTF 2026",
+  "host": "0.0.0.0",
+  "port": 8088,
+  "ingest_token": "請換成一段夠長的隨機字串",
+  "view_key": "",
+  "mask_ip": true,
+  "port_map": {
+    "31337": "ret2win",
+    "31338": 12,
+    "8001-8010": { "challenge": "Web Sandbox", "category": "web" }
+  },
+  "host_map": {
+    "login.ctf.example.com": "Baby Login"
+  }
+}

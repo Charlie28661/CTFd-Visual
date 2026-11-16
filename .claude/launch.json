@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ctfd-visual-demo",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["server.py", "--demo", "--host", "127.0.0.1", "--port", "8088"],
+      "port": 8088
+    }
+  ]
+}
